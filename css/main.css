@@ -1,0 +1,15 @@
+input{
+    display:block;
+    margin: 3px
+}
+
+body{margin:25px;}
+#players-wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:5px;
+    margin:5px;
+}
+#player-wrapper img {
+    width:100%;
+}
